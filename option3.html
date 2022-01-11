@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Set page info -->
-        <title>CSS Switcher - HTML and Body Height</title>
+        <title>3 - undefined; min-height: 100vh;</title>
 
         <!-- Set theme colors -->
         <meta name="theme-color" content="#623d8f" />
@@ -18,7 +18,7 @@
         <link rel="stylesheet" href="css/color.css" />
         <link rel="stylesheet" href="css/style.css" />
 
-        <link rel="stylesheet" href="/css/option0.css" />
+        <link rel="stylesheet" href="/css/option3.css" />
 
         <!-- Add google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -45,11 +45,11 @@
                 <label for="css-option-list">Choose CSS:</label>
                 <p id="css-option-list-key">html; body;</p>
                 <select name="css-options" id="css-option-list" onchange="location = this.value">
+                    <option value='option3.html'>3 - undefined; min-height: 100vh;</option>
+                    <option value='option4.html'>4 - min-height: 100%; flex-grow: 1;</option>
                     <option value='option0.html'>0 - undefined; undefined;</option>
                     <option value='option1.html'>1 - min-height: 100%; min-height: 100%;</option>
                     <option value='option2.html'>2 - height: 100%; min-height: 100%;</option>
-                    <option value='option3.html'>3 - undefined; min-height: 100vh;</option>
-                    <option value='option4.html'>4 - min-height: 100%; flex-grow: 1;</option>
                </select>
 
                 <button id="expand-button" onclick="handleExpandedSection()">More Info</button>
@@ -66,7 +66,7 @@ html {
 }
 
 body {
-
+    min-height: 100vh;
 
 
 }
