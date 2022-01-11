@@ -1,0 +1,43 @@
+:root {
+    --redx: hsl(359, 81%, 58%);
+    --orange: hsl(20, 74%, 53%);
+    --yellow: hsl(42, 93%, 64%);
+    --green: hsl(94, 42%, 54%);
+    --blue: hsl(198, 61%, 39%);
+    --purple: hsl(267, 40%, 40%);
+    --teal: hsl(173, 100%, 27%);
+    --grey: hsl(0, 0%, 72%);
+}
+
+.redx { background-color: var(--redx); }
+.orange { background-color: var(--orange); }
+.yellow { background-color: var(--yellow); }
+.green { background-color: var(--green); }
+.blue { background-color: var(--blue); }
+.purple { background-color: var(--purple); }
+.teal { background-color: var(--teal); }
+.grey { background-color: var(--grey); }
+
+html {
+    background-color: var(--redx);
+}
+
+body {
+    background-color: var(--orange);
+}
+
+header {
+    background-color: var(--yellow);
+}
+
+main {
+    background-color: var(--green);
+}
+
+footer {
+    background-color: var(--blue);
+}
+
+#container {
+    background-color: var(--grey);
+}
