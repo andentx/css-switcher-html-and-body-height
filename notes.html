@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="css/style.css" />
 
         <!-- Link to CSS Option -->
-        <link rel="stylesheet" href="css/option1.css" />
+        <link rel="stylesheet" href="css/option4.css" />
 
         <!-- Add google font -->
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -60,53 +60,41 @@
                 <label for="css-option-list">Choose CSS:</label>
                 <p id="css-option-list-key">html; body;</p>
                 <select name="css-options" id="css-option-list" onchange="location = this.value">
+                    <option value='option4.html'>4 - min-height: 100%; flex-grow: 1;</option>
+                    <option value='option0.html'>0 - undefined; undefined;</option>
                     <option value='option1.html'>1 - min-height: 100%; min-height: 100%;</option>
                     <option value='option2.html'>2 - height: 100%; min-height: 100%;</option>
                     <option value='option3.html'>3 - undefined; min-height: 100vh;</option>
-                    <option value='option4.html'>4 - min-height: 100%; flex-grow: 1;</option>
-                    <option value='option0.html'>0 - undefined; undefined;</option>
                </select>
 
-                <button id="expand-button" onclick="handleExpandedSection()">More Info</button>
-                
-                <div id="expanded-section">
+               <div class="info-box">
+                <h3 class="info-title">Notes</h3>
+                <div class="info-section" id="css-switcher-notes">
+                    <h4>Description</h4><br>
+                    This is a tool to test different methods of setting height on the html and body elements.<br>
+                    <br>
+                    <br>
+                    <h4>Purpose</h4><br>
+                    To explore the differences each method has on view size, scrolling, overflow and other behaviors on different browsers.<br>
+                    <br>
+                    <br>
+                    <h4>How to Use</h4><br>
+                    Choose a method from the dropdown menu.<br>
+                    <br>
+                    Each option's first value is the CSS applied for the html element.<br>
+                    <br>
+                    The second value is the CSS applied on the body element.<br>
+                    <br>
+                    Click the button to see more information about the applied CSS, color key, and notes on each method.<br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
 
-                    <div class="info-box">
-                        <h3 class="info-title">Applied CSS</h3>              
-<pre class="info-section" id="applied-css-code-block">
-html {
-    min-height: 100%;
-
-
-}
-
-body {
-    min-height: 100%;
-
-
-}
-</pre>
-                    </div>
-
-                    <div class="info-box">
-                        <h3 class="info-title">Key</h3>
-                            <div class="info-section" id="color-key" >
-                                <div class="color-swatch redx"></div><p class="swatch-label" id="swatch-label-html">html</p>
-                                <div class="color-swatch orange"></div><p class="swatch-label" id="swatch-label-body">body</p>
-                                <div class="color-swatch yellow"></div><p class="swatch-label" id="swatch-label-header">header</p>
-                                <div class="color-swatch green"></div><p class="swatch-label" id="swatch-label-main">main</p>
-                                <div class="color-swatch blue"></div><p class="swatch-label" id="swatch-label-footer">footer</p>
-                                <div class="color-swatch purple"></div><p class="swatch-label" id="swatch-label-theme-color">theme-color</p>
-                                <div class="color-swatch grey"></div><p class="swatch-label" id="swatch-label-container">#container</p>
-                            </div>
-                        </div>
-
-                    <div class="info-box">
-                        <h3 class="info-title">Notes</h3>
-                        <p class="info-section" id="applied-css-notes">note, note and note</p>
-                    </div>
-                        
                 </div>
+            </div>
+
+
 
             </article>
         </main>
