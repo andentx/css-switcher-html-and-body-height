@@ -23,6 +23,10 @@ header {
     font-weight: 400;
 }
 
+#header-logo a {
+    color: black;
+}
+
 nav {
     display: flex;
     justify-content: center;
