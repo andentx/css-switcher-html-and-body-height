@@ -23,7 +23,7 @@
 
         <!-- Set page info for Twitter Cards -->
         <meta name="twitter:card" content="summary" />
-        
+
         <!-- Set theme colors -->
         <meta name="theme-color" content="#623d8f" />
 
@@ -39,7 +39,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet" />
-
     </head>
     <body>
         <header>
@@ -60,42 +59,17 @@
                 <label for="css-option-list">Choose CSS:</label>
                 <p id="css-option-list-key">html; body;</p>
                 <select name="css-options" id="css-option-list" onchange="location = this.value">
-                    <option value='option4.html'>4 - min-height: 100%; flex-grow: 1;</option>
-                    <option value='option0.html'>0 - undefined; undefined;</option>
-                    <option value='option1.html'>1 - min-height: 100%; min-height: 100%;</option>
-                    <option value='option2.html'>2 - height: 100%; min-height: 100%;</option>
-                    <option value='option3.html'>3 - undefined; min-height: 100vh;</option>
-               </select>
+                    <option value="option4.html">4 - min-height: 100%; flex-grow: 1;</option>
+                    <option value="option0.html">0 - undefined; undefined;</option>
+                    <option value="option1.html">1 - min-height: 100%; min-height: 100%;</option>
+                    <option value="option2.html">2 - height: 100%; min-height: 100%;</option>
+                    <option value="option3.html">3 - undefined; min-height: 100vh;</option>
+                </select>
 
-               <div class="info-box">
-                <h3 class="info-title">Notes</h3>
-                <div class="info-section" id="css-switcher-notes">
-                    <h4>Description</h4><br>
-                    This is a tool to test different methods of setting height on the html and body elements.<br>
-                    <br>
-                    <br>
-                    <h4>Purpose</h4><br>
-                    To explore the differences each method has on view size, scrolling, overflow and other behaviors on different browsers.<br>
-                    <br>
-                    <br>
-                    <h4>How to Use</h4><br>
-                    Choose a method from the dropdown menu.<br>
-                    <br>
-                    Each option's first value is the CSS applied for the html element.<br>
-                    <br>
-                    The second value is the CSS applied on the body element.<br>
-                    <br>
-                    Click the button to see more information about the applied CSS, color key, and notes on each method.<br>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-
+                <div class="info-box">
+                    <h3 class="info-title">Notes</h3>
+                    <div class="info-section" id="css-switcher-notes"></div>
                 </div>
-            </div>
-
-
-
             </article>
         </main>
 
@@ -103,6 +77,6 @@
             <p>This is the footer</p>
         </footer>
 
-    <script src="js/scripts.js"></script>
-
+        <script src="js/scripts.js"></script>
+    </body>
 </html>

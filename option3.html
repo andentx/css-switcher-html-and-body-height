@@ -23,7 +23,7 @@
 
         <!-- Set page info for Twitter Cards -->
         <meta name="twitter:card" content="summary" />
-        
+
         <!-- Set theme colors -->
         <meta name="theme-color" content="#623d8f" />
 
@@ -39,7 +39,6 @@
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet" />
-
     </head>
     <body>
         <header>
@@ -60,20 +59,19 @@
                 <label for="css-option-list">Choose CSS:</label>
                 <p id="css-option-list-key">html; body;</p>
                 <select name="css-options" id="css-option-list" onchange="location = this.value">
-                    <option value='option3.html'>3 - undefined; min-height: 100vh;</option>
-                    <option value='option4.html'>4 - min-height: 100%; flex-grow: 1;</option>
-                    <option value='option0.html'>0 - undefined; undefined;</option>
-                    <option value='option1.html'>1 - min-height: 100%; min-height: 100%;</option>
-                    <option value='option2.html'>2 - height: 100%; min-height: 100%;</option>
-               </select>
+                    <option value="option3.html">3 - undefined; min-height: 100vh;</option>
+                    <option value="option4.html">4 - min-height: 100%; flex-grow: 1;</option>
+                    <option value="option0.html">0 - undefined; undefined;</option>
+                    <option value="option1.html">1 - min-height: 100%; min-height: 100%;</option>
+                    <option value="option2.html">2 - height: 100%; min-height: 100%;</option>
+                </select>
 
                 <button id="expand-button" onclick="handleExpandedSection()">More Info</button>
-                
-                <div id="expanded-section">
 
+                <div id="expanded-section">
                     <div class="info-box">
-                        <h3 class="info-title">Applied CSS</h3>              
-<pre class="info-section" id="applied-css-code-block">
+                        <h3 class="info-title">Applied CSS</h3>
+                        <pre class="info-section" id="applied-css-code-block">
 html {
 
 
@@ -85,29 +83,35 @@ body {
 
 
 }
-</pre>
+</pre
+                        >
                     </div>
 
                     <div class="info-box">
                         <h3 class="info-title">Key</h3>
-                            <div class="info-section" id="color-key" >
-                                <div class="color-swatch redx"></div><p class="swatch-label" id="swatch-label-html">html</p>
-                                <div class="color-swatch orange"></div><p class="swatch-label" id="swatch-label-body">body</p>
-                                <div class="color-swatch yellow"></div><p class="swatch-label" id="swatch-label-header">header</p>
-                                <div class="color-swatch green"></div><p class="swatch-label" id="swatch-label-main">main</p>
-                                <div class="color-swatch blue"></div><p class="swatch-label" id="swatch-label-footer">footer</p>
-                                <div class="color-swatch purple"></div><p class="swatch-label" id="swatch-label-theme-color">theme-color</p>
-                                <div class="color-swatch grey"></div><p class="swatch-label" id="swatch-label-container">#container</p>
-                            </div>
+                        <div class="info-section" id="color-key">
+                            <div class="color-swatch redx"></div>
+                            <p class="swatch-label" id="swatch-label-html">html</p>
+                            <div class="color-swatch orange"></div>
+                            <p class="swatch-label" id="swatch-label-body">body</p>
+                            <div class="color-swatch yellow"></div>
+                            <p class="swatch-label" id="swatch-label-header">header</p>
+                            <div class="color-swatch green"></div>
+                            <p class="swatch-label" id="swatch-label-main">main</p>
+                            <div class="color-swatch blue"></div>
+                            <p class="swatch-label" id="swatch-label-footer">footer</p>
+                            <div class="color-swatch purple"></div>
+                            <p class="swatch-label" id="swatch-label-theme-color">theme-color</p>
+                            <div class="color-swatch grey"></div>
+                            <p class="swatch-label" id="swatch-label-container">#container</p>
                         </div>
+                    </div>
 
                     <div class="info-box">
                         <h3 class="info-title">Notes</h3>
-                        <p class="info-section" id="applied-css-notes">note, note and note</p>
+                        <div class="info-section" id="applied-css-notes">note, note and note</div>
                     </div>
-                        
                 </div>
-
             </article>
         </main>
 
@@ -115,6 +119,6 @@ body {
             <p>This is the footer</p>
         </footer>
 
-    <script src="js/scripts.js"></script>
-
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
