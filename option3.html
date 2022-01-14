@@ -109,7 +109,68 @@ body {
 
                     <div class="info-box">
                         <h3 class="info-title">Notes</h3>
-                        <div class="info-section" id="applied-css-notes">note, note and note</div>
+                        <div class="info-section" id="applied-css-notes">
+                            <h4>description</h4>
+                            <ul>
+                                <li>a modern, common method</li>
+                                <li>has issues related to mobile browsers</li>
+                            </ul>
+
+                            <h4>html element</h4>
+                            <ul>
+                                <li>html height is not set</li>
+                                <li>when html height is not set, it assumes the body height</li>
+                                <li>html min-height gets set to match 100vh from body element</li>
+                                <li>html element will grow to include inner content</li>
+                            </ul>
+
+                            <h4>body element</h4>
+                            <ul>
+                                <li>body has minimum height of 100vh</li>
+                                <li>body element will grow to fit inner content</li>
+                            </ul>
+
+                            <h4>behavior</h4>
+                            <ul>
+                                <li>html and body will fill full view height</li>
+                                <li>100vh height is calculated from the maximum viewport height on most mobile browsers, so content may be hidden by the browser UI on initial load</li>
+                            </ul>
+
+                            <h4>opinions</h4>
+                            <ul>
+                                <li>
+                                    "The Modern Solution"<br />
+                                    <br />
+                                    "For a responsive full page height, set the body element min-height to 100vh."<br />
+                                    <br />
+                                    - <a href="https://www.freecodecamp.org/news/html-page-width-height/">freeCodeCamp</a><br />
+                                    <br />
+                                    <br />
+                                </li>
+                                <li>
+                                    "The state-of-the-art way"<br />
+                                    <br />
+                                    "Isn't it exactly what we need?<br />
+                                    <br />
+                                    Well... Almost.<br />
+                                    If we open such a page in a typical mobile browser ... even if the page has no content at all, its bottom will still disappear beneath the bottom UI panel of the
+                                    browser!<br />
+                                    <br />
+                                    - <a href="https://dev.to/fenok/stretching-body-to-full-viewport-height-the-missing-way-2ghd">Leonid Fenko</a><br />
+                                    <br />
+                                    <br />
+                                </li>
+                                <li>
+                                    "This method is nice and simple, but I prefer not to use 100vh if it is not consistent on mobile browsers.<br />
+                                    <br />
+                                    Setting content to be the full height of a mobile browser, but hidden behind the UI when initially loaded doesn't make sense to me."<br />
+                                    <br />
+                                    - <a href="https://github.com/andentx">andrew</a><br />
+                                    <br />
+                                    <br />
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </article>

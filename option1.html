@@ -109,7 +109,58 @@ body {
 
                     <div class="info-box">
                         <h3 class="info-title">Notes</h3>
-                        <div class="info-section" id="applied-css-notes">note, note and note</div>
+                        <div class="info-section" id="applied-css-notes">
+                            <h4>description</h4>
+                            <ul>
+                                <li>common setting</li>
+                                <li>doesn't work properly</li>
+                                <li>content taller than view height will hide related issues</li>
+                            </ul>
+
+                            <h4>html element</h4>
+                            <ul>
+                                <li>html height is not set</li>
+                                <li>html min-height set to 100%</li>
+                                <li>html min-height based off viewport height</li>
+                                <li>html element will grow to include inner content</li>
+                            </ul>
+
+                            <h4>body element</h4>
+                            <ul>
+                                <li>body height is not set</li>
+                                <li>body has minimum height of 0</li>
+                                <li>body is not able to set min-height because the parent element, html, does not have a set height</li>
+                                <li>body element will grow to include inner content</li>
+                            </ul>
+
+                            <h4>behavior</h4>
+                            <ul>
+                                <li>html and body will not fill full view height unless inner content happens to be taller than the view height</li>
+                                <li>there is no fixed height on the html element to reference</li>
+                                <li>these issues are hidden if content is taller than view height</li>
+                            </ul>
+
+                            <h4>opinions</h4>
+                            <ul>
+                                <li>
+                                    "It is not uncommon to see CSS properties applied to both the HTML and body elements like this ...<br />
+                                    <br />
+                                    Does it matter? Yes, yes it does.<br />
+                                    <br />
+                                    The above style definition creates a problem: Setting min-height to 100% on both elements does not allow the body element to fill the page like you might
+                                    expect."<br />
+                                    <br />
+                                    - <a href="https://www.freecodecamp.org/news/html-page-width-height/">freeCodeCamp</a><br />
+                                    <br />
+                                    <br />
+                                </li>
+                                <li>
+                                    "Not optimal. The incorrect use of min-height on the html element leads to inconsistent behavior."<br />
+                                    <br />
+                                    - <a href="https://github.com/andentx">andrew</a><br />
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </article>

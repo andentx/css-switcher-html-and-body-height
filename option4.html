@@ -109,7 +109,65 @@ body {
 
                     <div class="info-box">
                         <h3 class="info-title">Notes</h3>
-                        <div class="info-section" id="applied-css-notes">note, note and note</div>
+                        <div class="info-section" id="applied-css-notes">
+                            <h4>description</h4>
+                            <ul>
+                                <li>a modern, flex-based method</li>
+                                <li>handles mobile browsers well</li>
+                            </ul>
+
+                            <h4>html element</h4>
+                            <ul>
+                                <li>html height is not set</li>
+                                <li>html has min-height of 100%</li>
+                                <li>html min-height based off viewport height</li>
+                                <li>html element will grow to include inner content</li>
+                                <li>html display set to flex</li>
+                            </ul>
+
+                            <h4>body element</h4>
+                            <ul>
+                                <li>body height is not set</li>
+                                <li>body min-height is not set</li>
+                                <li>body gets a default align-self value of stretch</li>
+                                <li>body will stretch to height of html element</li>
+                                <li>body element will grow to fit inner content</li>
+                            </ul>
+
+                            <h4>behavior</h4>
+                            <ul>
+                                <li>html and body will fill full view height</li>
+                                <li>100% height is calculated from the minimum viewport height on mobile browsers, so content will not be hidden by the browser UI on initial load</li>
+                                <li>
+                                    setting a parent element to display: flex enables a child element to grow to the entire height of the parent container, without needing to reference a fixed height,
+                                    while still being able to grow to fit inner content
+                                </li>
+                            </ul>
+
+                            <h4>opinions</h4>
+                            <ul>
+                                <li>
+                                    "The missing way"<br />
+                                    <br />
+                                    "...both html and body can stretch to their content, and, since we're using the percentage height, there are no issues with mobile browsers whatsoever."<br />
+                                    <br />
+                                    - <a href="https://dev.to/fenok/stretching-body-to-full-viewport-height-the-missing-way-2ghd">Leonid Fenko</a><br />
+                                    <br />
+                                    <br />
+                                </li>
+                                <li>
+                                    "This is my preferred way to set the html and body height. It is the easiest to control and predict.<br />
+                                    <br />
+                                    There is value in setting these parameters even when the issues from not setting them are hidden.<br />
+                                    <br />
+                                    Filling the view of a mobile browser to the edges of the UI upon loading instead of the maximum viewheight makes the most sense to me."<br />
+                                    <br />
+                                    - <a href="https://github.com/andentx">andrew</a><br />
+                                    <br />
+                                    <br />
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </article>
