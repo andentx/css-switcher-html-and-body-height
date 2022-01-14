@@ -431,7 +431,7 @@ To explore the differences each method has on view size, scrolling, overflow and
 
 <br>
 
--   [Stretching body to full viewport height: the missing way]() <br> - Leonid Fenko
+-   [Stretching body to full viewport height: the missing way](https://dev.to/fenok/stretching-body-to-full-viewport-height-the-missing-way-2ghd) <br> - Leonid Fenko
 
 <br>
 
