@@ -4,20 +4,22 @@ This is a tool to test different methods of setting height on the html and body 
 
 <br>
 
+[Live Demo](https://andentx.github.io/css-switcher-html-and-body-height/)
+
+<br>
+
 ## Table of Contents
 
 -   [Purpose](#purpose)
 -   [How to Use](#how-to-use)
--   [Option 0](#)
--   [Option 1](#)
--   [Option 2](#)
--   [Option 3](#)
--   [Option 4](#)
+-   [Option 0](#option0)
+-   [Option 1](#option1)
+-   [Option 2](#option2)
+-   [Option 3](#option3)
+-   [Option 4](#option4)
 -   [References](#references)
 
 <br>
-
----
 
 ## <a name="purpose"></a> Purpose
 
@@ -425,18 +427,18 @@ To explore the differences each method has on view size, scrolling, overflow and
 
 ## <a name="references"></a> References
 
--   ### [HTML vs Body: How to Set Width and Height for Full Page Size](https://www.freecodecamp.org/news/html-page-width-height/) <br> - freeCodeCamp
+-   [HTML vs Body: How to Set Width and Height for Full Page Size](https://www.freecodecamp.org/news/html-page-width-height/) <br> - freeCodeCamp
 
 <br>
 
--   ### [Stretching body to full viewport height: the missing way]() <br> - Leonid Fenko
+-   [Stretching body to full viewport height: the missing way]() <br> - Leonid Fenko
 
 <br>
 
--   ### [Bug 141832 - Viewport height is taller than the visible part of the document in some mobile browsers](https://bugs.webkit.org/show_bug.cgi?id=141832) <br> - WebKit Bugzilla
+-   [Bug 141832 - Viewport height is taller than the visible part of the document in some mobile browsers](https://bugs.webkit.org/show_bug.cgi?id=141832) <br> - WebKit Bugzilla
 
 <br>
 
--   ### [URL Bar Resizing - Web Update](https://developers.google.com/web/updates/2016/12/url-bar-resizing) <br> - Google Developers
+-   [URL Bar Resizing - Web Update](https://developers.google.com/web/updates/2016/12/url-bar-resizing) <br> - Google Developers
 
 <br>
