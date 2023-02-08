@@ -71,7 +71,7 @@ main {
     align-items: center;
 
     height: min-content;
-    width: min(95%, 400px);
+    width: min(95%, 600px);
     padding: 1rem 1rem 0 1rem;
 }
 
@@ -116,8 +116,7 @@ main {
     display: flex;
     flex-direction: column;
 
-    min-height: 255px;
-    width: 225px;
+    width: 90%;
     margin: 1rem;
 }
 
@@ -185,13 +184,27 @@ main {
     font-size: 18px;
 }
 
-#swatch-label-html { grid-area: html; }
-#swatch-label-body { grid-area: body; }
-#swatch-label-header { grid-area: header; }
-#swatch-label-main { grid-area: main; }
-#swatch-label-footer { grid-area: footer; }
-#swatch-label-theme-color { grid-area: theme-color; }
-#swatch-label-container { grid-area: container; }
+#swatch-label-html {
+    grid-area: html;
+}
+#swatch-label-body {
+    grid-area: body;
+}
+#swatch-label-header {
+    grid-area: header;
+}
+#swatch-label-main {
+    grid-area: main;
+}
+#swatch-label-footer {
+    grid-area: footer;
+}
+#swatch-label-theme-color {
+    grid-area: theme-color;
+}
+#swatch-label-container {
+    grid-area: container;
+}
 
 footer {
     border-top: 2px solid black;
